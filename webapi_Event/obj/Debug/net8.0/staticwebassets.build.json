@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "5njFOe+Ew0pAtpLR2jrWWWrCpfQ0XLsGGWFHjoyChEM=",
+  "Source": "webapi_Event",
+  "BasePath": "_content/webapi_Event",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

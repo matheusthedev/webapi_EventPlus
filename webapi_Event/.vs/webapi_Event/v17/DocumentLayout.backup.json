@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|c:\\users\\55562188899\\desktop\\webapi_eventplus\\webapi_event\\interfaces\\itipoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|solutionrelative:interfaces\\itipoevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|c:\\users\\55562188899\\desktop\\webapi_eventplus\\webapi_event\\interfaces\\icomentarioevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|solutionrelative:interfaces\\icomentarioevento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IComentarioEvento.cs",
+              "DocumentMoniker": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Interfaces\\IComentarioEvento.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IComentarioEvento.cs",
+              "ToolTip": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Interfaces\\IComentarioEvento.cs",
+              "RelativeToolTip": "Interfaces\\IComentarioEvento.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T18:16:06.078Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ITipoEvento.cs",
+              "DocumentMoniker": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Interfaces\\ITipoEvento.cs",
+              "RelativeDocumentMoniker": "Interfaces\\ITipoEvento.cs",
+              "ToolTip": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Interfaces\\ITipoEvento.cs",
+              "RelativeToolTip": "Interfaces\\ITipoEvento.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBAAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T18:13:51.446Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
