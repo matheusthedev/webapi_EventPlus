@@ -1,0 +1,44 @@
+[
+  {
+    "ContainingType": "webapi_Event.Controllers.TiposDeEventoController",
+    "Method": "Get",
+    "RelativePath": "api/TiposDeEvento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webapi_Event.Controllers.TiposDeEventoController",
+    "Method": "Post",
+    "RelativePath": "api/TiposDeEvento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novoTipo",
+        "Type": "Event_.Domains.TipoEvento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "webapi_Event.Controllers.TiposDeEventoController",
+    "Method": "Get",
+    "RelativePath": "api/TiposDeEvento/BuscarPorId/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
