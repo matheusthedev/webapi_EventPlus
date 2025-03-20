@@ -14,16 +14,7 @@ namespace Event_.Domains
         [Required(ErrorMessage = "O tipo de usuario é Obrigatório!")]
         public string? TituloTipoUsuario { get; set; }
 
-        [Column(TypeName = "VARCHAR(80)")]
-        [Required(ErrorMessage = "O email e obrigatorio!")]
-
-        public string? Email { get; set; }
-
-        [Column(TypeName = "VARCHAR(60)")]
-        [Required(ErrorMessage = "A senha e obrigatoria!")]
-
-
-        public string? Senha { get; set; }
+        
 
 
 

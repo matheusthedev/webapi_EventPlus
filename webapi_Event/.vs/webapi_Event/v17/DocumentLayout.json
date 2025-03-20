@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|c:\\users\\55562188899\\desktop\\webapi_eventplus\\webapi_event\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|c:\\users\\55562188899\\desktop\\webapi_eventplus\\webapi_event\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|solutionrelative:repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|c:\\users\\55562188899\\desktop\\webapi_eventplus\\webapi_event\\repositories\\tiposeventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|solutionrelative:repositories\\tiposeventorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|c:\\users\\55562188899\\desktop\\webapi_eventplus\\webapi_event\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|c:\\users\\55562188899\\desktop\\webapi_eventplus\\webapi_event\\controllers\\tiposdeeventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|solutionrelative:controllers\\tiposdeeventocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|c:\\users\\55562188899\\desktop\\webapi_eventplus\\webapi_event\\context\\event_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|solutionrelative:context\\event_context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|c:\\users\\55562188899\\desktop\\webapi_eventplus\\webapi_event\\controllers\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{327452D0-2CE4-4041-9C3A-0AC23082AEAD}|webapi_Event.csproj|solutionrelative:controllers\\tipousuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Event_context.cs",
-              "DocumentMoniker": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Context\\Event_context.cs",
-              "RelativeDocumentMoniker": "Context\\Event_context.cs",
-              "ToolTip": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Context\\Event_context.cs",
-              "RelativeToolTip": "Context\\Event_context.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAA9wCIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T11:59:27.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAvwFIAAAAEAAAAAAAAAA==",
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T11:38:54.57Z",
+              "WhenOpened": "2025-03-20T16:23:00.906Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TiposDeEventoController.cs",
-              "DocumentMoniker": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Controllers\\TiposDeEventoController.cs",
-              "RelativeDocumentMoniker": "Controllers\\TiposDeEventoController.cs",
-              "ToolTip": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Controllers\\TiposDeEventoController.cs",
-              "RelativeToolTip": "Controllers\\TiposDeEventoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAhAAAAAAAAAA==",
+              "Title": "TipoUsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Controllers\\TipoUsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TipoUsuarioController.cs",
+              "ToolTip": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Controllers\\TipoUsuarioController.cs",
+              "RelativeToolTip": "Controllers\\TipoUsuarioController.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAgwD8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T19:44:30.188Z",
+              "WhenOpened": "2025-03-20T16:21:36.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TiposEventoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Repositories\\TiposEventoRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\TiposEventoRepository.cs",
-              "ToolTip": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Repositories\\TiposEventoRepository.cs",
-              "RelativeToolTip": "Repositories\\TiposEventoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAvAAAAAAAAAA==",
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Users\\55562188899\\Desktop\\webapi_EventPlus\\webapi_Event\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAqwDEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T19:20:26.55Z",
+              "WhenOpened": "2025-03-20T16:21:23.01Z",
               "EditorCaption": ""
             }
           ]

@@ -19,7 +19,7 @@ namespace Event_.Domains
 
 
         [Column(TypeName = "VARCHAR(50)")]
-        [Required(ErrorMessage = "O Evento ainda esta desponivel obrigatorio!")]
+        [Required(ErrorMessage = "O Evento ainda esta disponivel obrigatorio!")]
 
         public string? Situacao { get; set; }
 

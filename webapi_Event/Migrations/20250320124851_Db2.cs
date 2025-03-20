@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace webapi_Event.Migrations
 {
     /// <inheritdoc />
-    public partial class Db : Migration
+    public partial class Db2 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -74,6 +74,18 @@ namespace webapi_Event.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "TipoEvento",
+                columns: table => new
+                {
+                    IdTipoEvento = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    TituloTipoEvento = table.Column<string>(type: "VARCHAR(70)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_TipoEvento", x => x.IdTipoEvento);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "TiposUsuarios",
                 columns: table => new
                 {
@@ -85,24 +97,6 @@ namespace webapi_Event.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_TiposUsuarios", x => x.IdTiposUsuarios);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "TipoEvento",
-                columns: table => new
-                {
-                    IdEvento = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    TituloTipoEvento = table.Column<string>(type: "VARCHAR(70)", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_TipoEvento", x => x.IdEvento);
-                    table.ForeignKey(
-                        name: "FK_TipoEvento_Evento_IdEvento",
-                        column: x => x.IdEvento,
-                        principalTable: "Evento",
-                        principalColumn: "IdEvento",
-                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
@@ -151,6 +145,9 @@ namespace webapi_Event.Migrations
                 name: "Comentario");
 
             migrationBuilder.DropTable(
+                name: "Evento");
+
+            migrationBuilder.DropTable(
                 name: "Instituicoes");
 
             migrationBuilder.DropTable(
@@ -161,9 +158,6 @@ namespace webapi_Event.Migrations
 
             migrationBuilder.DropTable(
                 name: "Usuarios");
-
-            migrationBuilder.DropTable(
-                name: "Evento");
 
             migrationBuilder.DropTable(
                 name: "TiposUsuarios");

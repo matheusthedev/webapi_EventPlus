@@ -12,8 +12,8 @@ using api_filmes_senai.Context;
 namespace webapi_Event.Migrations
 {
     [DbContext(typeof(EventoContext))]
-    [Migration("20250313170557_Db")]
-    partial class Db
+    [Migration("20250320124851_Db2")]
+    partial class Db2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -84,8 +84,6 @@ namespace webapi_Event.Migrations
                     b.HasKey("IdEvento");
 
                     b.ToTable("Evento");
-
-                    b.UseTptMappingStrategy();
                 });
 
             modelBuilder.Entity("Event_.Domains.Instituicoes", b =>
@@ -134,6 +132,21 @@ namespace webapi_Event.Migrations
                     b.HasKey("IdPresencaEvento");
 
                     b.ToTable("PresencaEventos");
+                });
+
+            modelBuilder.Entity("Event_.Domains.TipoEvento", b =>
+                {
+                    b.Property<Guid>("IdTipoEvento")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("TituloTipoEvento")
+                        .IsRequired()
+                        .HasColumnType("VARCHAR(70)");
+
+                    b.HasKey("IdTipoEvento");
+
+                    b.ToTable("TipoEvento");
                 });
 
             modelBuilder.Entity("Event_.Domains.TiposUsuarios", b =>
@@ -190,17 +203,6 @@ namespace webapi_Event.Migrations
                     b.ToTable("Usuarios");
                 });
 
-            modelBuilder.Entity("Event_.Domains.TipoEvento", b =>
-                {
-                    b.HasBaseType("Event_.Domains.Evento");
-
-                    b.Property<string>("TituloTipoEvento")
-                        .IsRequired()
-                        .HasColumnType("VARCHAR(70)");
-
-                    b.ToTable("TipoEvento");
-                });
-
             modelBuilder.Entity("Event_.Domains.Usuarios", b =>
                 {
                     b.HasOne("Event_.Domains.TiposUsuarios", "TiposUsuarios")
@@ -210,15 +212,6 @@ namespace webapi_Event.Migrations
                         .IsRequired();
 
                     b.Navigation("TiposUsuarios");
-                });
-
-            modelBuilder.Entity("Event_.Domains.TipoEvento", b =>
-                {
-                    b.HasOne("Event_.Domains.Evento", null)
-                        .WithOne()
-                        .HasForeignKey("Event_.Domains.TipoEvento", "IdEvento")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
